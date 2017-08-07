@@ -98,5 +98,4 @@ def cancel_tx(address):
     }
     return _shapeshift_post_request(url_path, payload)
 
-if __name__ == "__main__":
-    print(get_coins())
+# Credit to https://news.21.co/how-to-use-the-shapeshift-api-and-python-to-convert-between-different-cryptocurrencies-1ae14ff2ff34
